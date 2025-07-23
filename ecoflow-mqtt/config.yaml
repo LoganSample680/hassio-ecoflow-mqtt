@@ -1,0 +1,14 @@
+name: EcoFlow MQTT
+version: "1.0"
+slug: ecoflow-mqtt
+description: Publishes EcoFlow Delta 3 Plus data to MQTT for Home Assistant Energy Dashboard
+startup: application
+boot: auto
+host_network: true
+options: {}
+schema: {}
+init: false
+arch:
+  - amd64
+  - aarch64
+  - armv7
